@@ -1,0 +1,65 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Camiseta",
+      "precio": 19.99,
+      "descripcion": "Una camiseta básica de algodón",
+      "disponible": true
+    },
+    {
+      "id": 2,
+      "nombre": "Pantalones",
+      "precio": 29.99,
+      "descripcion": "Pantalones vaqueros ajustados",
+      "disponible": false
+    },
+    {
+      "id": 3,
+      "nombre": "Zapatillas",
+      "precio": 49.99,
+      "descripcion": "Zapatillas deportivas cómodas",
+      "disponible": true
+    }
+  ],
+  "carrito": {
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Camiseta",
+        "precio": 19.99,
+        "cantidad": 2
+      },
+      {
+        "id": 3,
+        "nombre": "Zapatillas",
+        "precio": 49.99,
+        "cantidad": 1
+      }
+    ],
+    "total": 89.97
+  },
+  "users": [
+    {
+      "email": "ana@yop.com",
+      "password": "$2a$10$w.bSZo.jM2tyFNjst53Zj.7FnW9BgnSd7s98HpDkVrz64WpWKbr.G",
+      "id": 1
+    },
+    {
+      "email": "juan@yop.com",
+      "password": "$2a$10$9O9mHeb3o07CxxadZ5USN.stJkaBSBUgJUScgvTV6cWBFnVhJpSIW",
+      "id": 2
+    },
+    {
+      "email": "juan12@yop.com",
+      "password": "$2a$10$KOLSBxOqtb/ncq.ihPMr1epgoR/ZFpxVlqnWs.qyBNH6mOd9qugVq",
+      "id": 3
+    },
+    {
+      "email": "ana1@yop.com",
+      "password": "$2a$10$OkP5qvzx6TTADVcD4C4sGOzMTSB94w.1FmQYPi85VfVhX210t6vXS",
+      "type": "admin",
+      "id": 4
+    }
+  ]
+}
