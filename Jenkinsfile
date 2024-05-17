@@ -8,8 +8,8 @@ node{
     stage('Construir aplicacion'){
         bat 'npm run build'
     }
-    /*stage('Copiar o mover al servidor'){
-        bat 'xcopy '
-    }*/
+    stage('Copiar o mover al servidor'){
+        bat 'xcopy C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Pipeline_Tarea\\dist c:\\servidor /E /I /Y'
+    }
 
 }
